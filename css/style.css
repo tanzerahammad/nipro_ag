@@ -14,7 +14,7 @@
 	--lot:'Roboto', sans-serif;
 
 	--16: 16px;
-	--36: 30px;
+	--30: 30px;
 	--60: 60px;
 	--400: 400;
 	--500: 500;
@@ -32,6 +32,9 @@ body{
 header {
     padding: 20px 0;
 }
+.nav_c{}
+
+/*logo start*/
 .logo{}
 .logo h1 {
     font-family: 'Lato', sans-serif;
@@ -118,28 +121,28 @@ header {
 /*--feature start--*/
 .feature{}
 .c_title {
-    margin-bottom: 80px;
+    margin-bottom: 20px;
 }
 .c_rec{
-    width: 2px;
-    height: 50px;
+    width: 1px;
+    height: 30px;
     display: inline-block;
     background-color: #333333;
 }
 .c_h1{
     font-family: 'Lato', sans-serif;
-    font-size: 40px;
+    font-size: 30px !important;
     font-weight: 400;
-    color: #333333;
+    color: var(--black);
     text-transform: uppercase;
 }
 /*--2nd row--*/
 .p_cus{}
 .para_c{
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    font-size: 19px;
+    margin-top: var(--30);
+    margin-bottom: var(--30);
+    font-size: var(--16);
 }
 /*--3rd row--*/
 .f_single {
@@ -169,7 +172,7 @@ header {
     background-color: white;
 }
 .f_icon i {
-    font-size: 70px;
+    font-size: 60px;
     color: #8e8e8e;
 }
 .f_single p {
@@ -202,3 +205,19 @@ header {
     border: 1px solid #333333;
 }
 /*--about end--*/
+
+/*footer start*/
+
+footer {
+    background-image: url(../images/footer_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*1st row*/
+.c_rec {
+    width: 1px;
+    height: 30px;
+    display: inline-block;
+    background-color: #333333;
+}
+.f_content{}
