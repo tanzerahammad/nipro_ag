@@ -1,29 +1,30 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Nipro</title>
-  
-  <!-- css link -->
+  <title>Nipro Agency</title>
+  <link rel="icon" type="jpg/favicon/png" href="images/favicon.jpg">
+  <!-- icon css links -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pixeden-stroke-7-icon@1.2.3/pe-icon-7-stroke/dist/pe-icon-7-stroke.min.css">
+ 
+  <!-- css links -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/media.css">
-  <link rel="stylesheet" href="css/bootstrap-icons.css">
-  <link rel="stylesheet" href="css/all.min.css">
-  <link rel="stylesheet" href="css/fontawesome.min.css">
-
-
 </head>
 <body>
+  
   <!-- header start -->
   <header>
     <div class="container">
       <!-- nav -->
-      <nav class="navbar navbar-expand-lg nav_c">
+      <nav class="navbar navbar-expand-lg c_nav">
         <div class="container-fluid px-0">
-
           <!-- logo -->
           <a class="navbar-brand logo" href="index.html"><h1 class="m-0">Nipro Agency</h1></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav_c" aria-controls="nav_c" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,7 +32,6 @@
           </button>
           <div class="collapse navbar-collapse menu" id="nav_c">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-
               <!-- menu start -->
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="index.html">Home</a>
@@ -49,32 +49,32 @@
                 <a class="nav-link" href="#">Contact</a>
               </li>
             </ul>
-
             <!-- search -->
-            <div class="dropdown n_search">
+            <div class="dropdown c_search">
               <a class="btn btn_search dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <i class="fa solid fa-magnifying-glass"></i>
               </a>
 
-              <ul class="dropdown-menu s_dm">
-                <form action="#">
+              <div class="dropdown-menu c_dm">
+                <form class="c_form" action="#">
                   <div class="row g-3">
                     <div class="col-11">
-                      <input type="text" class="form-control s_input" placeholder="Search here">
+                      <input type="text" class="form-control c_input" placeholder="Search here">
                     </div>
                     <div class="col-1">
-                      <button type="submit" class="s_submit"><i class="fa solid fa-magnifying-glass"></i></button>
+                      <button type="submit" class="c_submit"><i class="fa solid fa-magnifying-glass"></i></button>
                     </div>
                   </div>
                 </form>
-              </ul>
+              </div>
             </div>
           </div>
         </div>
       </nav>
     </div>
-  </header>
+  </header> 
   <!-- header end -->
+
   <!-- banner start -->
   <section class="banner">
     <div class="container">
@@ -126,13 +126,12 @@
   </section>
   <!-- banner end -->
 
-
-  <!-- feature start -->
+  <!-- welcome section start -->
   <section class="feature">
     <div class="container">
       <!-- 1st row -->
       <div class="row justify-content-center">
-        <div class="col-lg-5">
+        <div class="col-lg-4">
           <div class="c_title text-center">
             <div class="c_rec"></div>
             <h1 class="c_h1">welcome to nipro</h1>
@@ -142,7 +141,7 @@
       <!-- 2nd row -->
       <div class="row justify-content-center">
         <div class="p_cus col-lg-12">
-          <p class="para_c">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever he to since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not  centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the er including versions of Lorem Ipsum.</p>
+          <p class="c_p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever he to since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not  centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the er including versions of Lorem Ipsum.</p>
         </div>
       </div>
       <!-- 3rd row -->
@@ -150,55 +149,55 @@
         <!-- single item -->
         <div class="col-lg-3">
           <div class="f_single">
-           <div class="f_icon">
-             <i class="fa-regular fa-gem"></i>
-           </div>
-           <h2>branding</h2>
-           <div class="f_hr"></div>
-           <p>Lorem Ipsum is simply dummy the printing typeset industry Lorem Ipsum has been the</p>
-           <a href="#">more <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
-         </div>
+            <div class="f_icon">
+              <i class="pe-7s-diamond"></i>
+            </div>
+            <h2>branding</h2>
+            <div class="f_hr"></div>
+            <p>Lorem Ipsum is simply dummy the printingtypeset industry Lorem Ipsum has been the</p>
+            <a href="#">more <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
+          </div>
         </div>
-       <!-- single item -->
-       <div class="col-lg-3">
-        <div class="f_single">
-          <div class="f_icon">
-           <i class="fa-regular fa-gem"></i>
-         </div>
-         <h2>ui & ux</h2>
-         <div class="f_hr"></div>
-         <p>Lorem Ipsum is simply dummy the printing typeset industry Lorem Ipsum has been the</p>
-         <a href="#">more <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
-       </div>
-     </div>
-     <!-- single item -->
-     <div class="col-lg-3">
-       <div class="f_single">
-        <div class="f_icon">
-         <i class="fa-regular fa-gem"></i>
-       </div>
-       <h2>app design</h2>
-       <div class="f_hr"></div>
-       <p>Lorem Ipsum is simply dummy the printing typeset industry Lorem Ipsum has been the</p>
-       <a href="#">more <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
-     </div>
-   </div>
-   <!-- single item -->
-   <div class="col-lg-3">
-     <div class="f_single">
-      <div class="f_icon">
-       <i class="fa-regular fa-gem"></i>
-     </div>
-     <h2>web design</h2>
-     <div class="f_hr"></div>
-     <p>Lorem Ipsum is simply dummy the printing typeset industry Lorem Ipsum has been the</p>
-     <a href="#">more <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
-   </div>
-  </div>
-  </div>
-  </div>
+        <!-- single item -->
+        <div class="col-lg-3">
+          <div class="f_single">
+            <div class="f_icon">
+              <i class="pe-7s-rocket"></i>
+            </div>
+            <h2>ui & ux</h2>
+            <div class="f_hr"></div>
+            <p>Lorem Ipsum is simply dummy the printingtypeset industry Lorem Ipsum has been the</p>
+            <a href="#">more <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
+          </div>
+        </div>
+        <!-- single item -->
+        <div class="col-lg-3">
+          <div class="f_single">
+            <div class="f_icon">
+              <i class="pe-7s-ribbon"></i>
+            </div>
+            <h2>app design</h2>
+            <div class="f_hr"></div>
+            <p>Lorem Ipsum is simply dummy the printingtypeset industry Lorem Ipsum has been the</p>
+            <a href="#">more <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
+          </div>
+        </div>
+        <!-- single item -->
+        <div class="col-lg-3">
+          <div class="f_single">
+            <div class="f_icon">
+              <i class="pe-7s-shield"></i>
+            </div>
+            <h2>web design</h2>
+            <div class="f_hr"></div>
+            <p>Lorem Ipsum is simply dummy the printing  typeset industry Lorem Ipsum has been the</p>
+            <a href="#">more <span><i class="fa-solid  fa-arrow-right-long"></i></span></a>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
-  <!-- feature end -->
+  <!-- welcome section end -->
 
   <!-- about start -->
   <section class="about">
@@ -222,15 +221,16 @@
   <!-- work start -->
   <section class="work">
     <div class="container">
+      <!-- 1st row -->
       <div class="row justify-content-center">
         <div class="c_title text-center">
-          <div class="c_rec">
-
-          </div>
+          <div class="c_rec"></div>
           <h1 class="c_h1">recent work</h1>
         </div>
-        <div class="work_menu">
-         <ul class="nav justify-content-center">
+      </div> 
+      <!-- 2nd row -->
+      <div class="row work_menu">
+        <ul class="nav justify-content-center">
           <li class="nav-item">
             <a class="nav-link"href="#">all</a>
           </li>
@@ -248,32 +248,25 @@
           </li>
         </ul>
       </div>
-    </div>
-  </div>
-  </section>
-  <!-- work end -->
-
-  <!-- portfolio start -->
-  <section class="portfolio">
-    <div class="container">
+      <!-- 3rd row -->
       <div class="row">
-        <!-- single item -->
+        <!-- single item start -->
         <div class="portfolio_item col-lg-4">
           <div class="box_2">
             <img src="images/w_img1.jpg" class="img-fluid" alt="Nipro Agency">
-            <div class="o_3">
-              <div class="overlay_icon">
-                <i class="pe-7s-plus"></i>
-              </div>
-            </div>
-            <div class="o_2">
-              <h2>project title</h2>
-              <p>app design</p>
+          </div>
+          <div class="o_3">
+            <div class="overlay_icon">
+              <i class="pe-7s-plus"></i>
             </div>
           </div>
+          <div class="o_2">
+            <h2>project title</h2>
+            <p>app design</p>
+          </div>
         </div>
-        <!-- single item -->
-        <!-- single item -->
+        <!-- single item end -->
+        <!-- single item start -->
         <div class="portfolio_item col-lg-4">
           <div class="box_2">
             <img src="images/w_img2.jpg" class="img-fluid" alt="Nipro Agency">
@@ -288,8 +281,8 @@
             </div>
           </div>
         </div>
-        <!-- single item -->
-        <!-- single item -->
+        <!-- single item end -->
+        <!-- single item start -->
         <div class="portfolio_item col-lg-4">
           <div class="box_2">
             <img src="images/w_img3.jpg" class="img-fluid" alt="Nipro Agency">
@@ -304,8 +297,8 @@
             </div>
           </div>
         </div>
-        <!-- single item -->
-        <!-- single item -->
+        <!-- single item end -->
+        <!-- single item start -->
         <div class="portfolio_item col-lg-4">
           <div class="box_2">
             <img src="images/w_img4.jpg" class="img-fluid" alt="Nipro Agency">
@@ -320,8 +313,8 @@
             </div>
           </div>
         </div>
-        <!-- single item -->
-        <!-- single item -->
+        <!-- single item end -->
+        <!-- single item start -->
         <div class="portfolio_item col-lg-4">
           <div class="box_2">
             <img src="images/w_img5.jpg" class="img-fluid" alt="Nipro Agency">
@@ -336,8 +329,8 @@
             </div>
           </div>
         </div>
-        <!-- single item -->
-        <!-- single item -->
+        <!-- single item end -->
+        <!-- single item start -->
         <div class="portfolio_item col-lg-4">
           <div class="box_2">
             <img src="images/w_img6.jpg" class="img-fluid" alt="Nipro Agency">
@@ -352,12 +345,11 @@
             </div>
           </div>
         </div>
-        <!-- single item -->
+        <!-- single item end -->
       </div>
     </div>
   </section>
-  <!-- portfolio end -->
-
+  <!-- work end -->
 
   <!-- choose start -->
   <section class="choose">
@@ -371,7 +363,7 @@
         <div class="col-lg-4">
           <div class="c_hr">
             <div class="c_heading">
-              <i class="pe-7"><span><h2>creative design</h2></span></i>
+              <i class="pe-7s-diamond"><span><h2>creative design</h2></span></i>
             </div>
             <div class="c_para">
               <p>Lorem Ipsum is simply dummy lol Is the printing typesetting industry. Lorem some </p>
@@ -382,43 +374,7 @@
         <div class="col-lg-4">
           <div class="c_hr">
             <div class="c_heading">
-              <i class="pe-"><span><h2>minimal design</h2></span></i>
-            </div>
-            <div class="c_para">
-              <p>Lorem Ipsum is simply dummy lol Is the printing typesetting industry. Lorem some </p>
-            </div>
-          </div>
-        </div>
-        
-        <!-- choose item start -->
-        <div class="col-lg-4">
-          <div class="c_hr">
-            <div class="c_heading">
-              <i class="pe"><span><h2>retina display</h2></span></i>
-            </div>
-            <div class="c_para">
-              <p>Lorem Ipsum is simply dummy lol Is the printing typesetting industry. Lorem some </p>
-            </div>
-          </div>
-        </div>
-        
-        <!-- choose item start -->
-        <div class="col-lg-4">
-          <div class="c_hr">
-            <div class="c_heading">
-              <i class="pe-7s-w"><span><h2>full responsive</h2></span></i>
-            </div>
-            <div class="c_para">
-              <p>Lorem Ipsum is simply dummy lol Is the printing typesetting industry. Lorem some </p>
-            </div>
-          </div>
-        </div>
-        
-        <!-- choose item start -->
-        <div class="col-lg-4">
-          <div class="c_hr">
-            <div class="c_heading">
-              <i class="fa-regular fa-gem"><span><h2>updates & support</h2></span></i>
+              <i class="pe-7s-vector"><span><h2>minimal design</h2></span></i>
             </div>
             <div class="c_para">
               <p>Lorem Ipsum is simply dummy lol Is the printing typesetting industry. Lorem some </p>
@@ -429,7 +385,40 @@
         <div class="col-lg-4">
           <div class="c_hr">
             <div class="c_heading">
-              <span><i class="fa-regular fa-gem"></i><h2>easy to customize</h2></span>
+              <i class="pe-7s-photo"><span><h2>retina display</h2></span></i>
+            </div>
+            <div class="c_para">
+              <p>Lorem Ipsum is simply dummy lol Is the printing typesetting industry. Lorem some </p>
+            </div>
+          </div>
+        </div>
+        <!-- choose item start -->
+        <div class="col-lg-4">
+          <div class="c_hr">
+            <div class="c_heading">
+              <i class="pe-7s-wristwatch"><span><h2>full responsive</h2></span></i>
+            </div>
+            <div class="c_para">
+              <p>Lorem Ipsum is simply dummy lol Is the printing typesetting industry. Lorem some </p>
+            </div>
+          </div>
+        </div>
+        <!-- choose item start -->
+        <div class="col-lg-4">
+          <div class="c_hr">
+            <div class="c_heading">
+              <i class="pe-7s-config"><span><h2>updates & support</h2></span></i>
+            </div>
+            <div class="c_para">
+              <p>Lorem Ipsum is simply dummy lol Is the printing typesetting industry. Lorem some </p>
+            </div>
+          </div>
+        </div>
+        <!-- choose item start -->
+        <div class="col-lg-4">
+          <div class="c_hr">
+            <div class="c_heading">
+              <i class="pe-7s-edit"><span><h2>easy to customize</h2></span></i>
             </div>
             <div class="c_para">
               <p>Lorem Ipsum is simply dummy lol Is the printing typesetting industry. Lorem some </p>
@@ -446,79 +435,74 @@
     <div class="container">
       <div class="row">
         <div class="c_title text-center">
-          <div class="c_rec">
-          </div>
+          <div class="c_rec"></div>
           <h1 class="c_h1">who work with us</h1>
         </div>
-        <!-- details -->
-        <div class=" row d_item">
-          <div class="col-lg-3 col-md-3 single_item">
-            <img src="images/d_img1.jpg" class="img-fluid">
-            <div class="dev_name">
-              <h2>David Shalom</h2>
-              <p>UI/UX Designer</p>
-            </div>
-            <div class="btn-group-vertical p_social_icon" role="group" aria-label="Vertical button group">
-              <button type="button" class="btn per_c_btn"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></button>
-              <button type="button" class="btn per_c_btn"><a href="#"><i class="fa-brands fa-twitter"></i></a></button>
-              <button type="button" class="btn per_c_btn"><a href="#"><i class="fa-brands fa-dribbble"></i></a></button>
-              <button type="button" class="btn per_c_btn"><a href="#"><i class="fa-brands fa-instagram"></i></a></button>
-              
-            </div>
+      </div>  
+      <!-- details -->
+      <div class="row d_item">
+        <div class="col-lg-3 col-md-3 single_item">
+          <img src="images/d_img1.jpg" class="img-fluid">
+          <div class="dev_name">
+            <h2>David Shalom</h2>
+            <p>UI/UX Designer</p>
           </div>
-          <!-- single item -->
-          <div class="col-lg-3 col-md-3 single_item">
-            <img src="images/d_img2.jpg" class="img-fluid">
-            <div class="dev_name">
-              <h2>tony stark</h2>
-              <p>Interface Designer</p>
-            </div>
-            <div class="btn-group-vertical p_social_icon" role="group" aria-label="Vertical button group">
-              <button type="button" class="btn per_c_btn"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></button>
-              <button type="button" class="btn per_c_btn"><a href="#"><i class="fa-brands fa-twitter"></i></a></button>
-              <button type="button" class="btn per_c_btn"><a href="#"><i class="fa-brands fa-dribbble"></i></a></button>
-              <button type="button" class="btn per_c_btn"><a href="#"><i class="fa-brands fa-instagram"></i></a></button>
-              
-            </div>
+          <div class="btn-group-vertical p_social_icon" role="group" aria-label="Vertical button group">
+            <button type="button" class="btn per_c_btn"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></button>
+            <button type="button" class="btn per_c_btn"><a href="#"><i class="fa-brands fa-twitter"></i></a></button>
+            <button type="button" class="btn per_c_btn"><a href="#"><i class="fa-brands fa-dribbble"></i></a></button>
+            <button type="button" class="btn per_c_btn"><a href="#"><i class="fa-brands fa-instagram"></i></a></button>           
           </div>
-          <!-- single item -->
-          <div class="col-lg-3 col-md-3 single_item">
-            <img src="images/d_img3.jpg" class="img-fluid">
-            <div class="dev_name">
-              <h2>robert carlos</h2>
-              <p>Web Developer</p>
-            </div>
-            <div class="btn-group-vertical p_social_icon" role="group" aria-label="Vertical button group">
-              <button type="button" class="btn per_c_btn"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></button>
-              <button type="button" class="btn per_c_btn"><a href="#"><i class="fa-brands fa-twitter"></i></a></button>
-              <button type="button" class="btn per_c_btn"><a href="#"><i class="fa-brands fa-dribbble"></i></a></button>
-              <button type="button" class="btn per_c_btn"><a href="#"><i class="fa-brands fa-instagram"></i></a></button>
-              
-            </div>
+        </div>
+        <!-- single item -->
+        <div class="col-lg-3 col-md-3 single_item">
+          <img src="images/d_img2.jpg" class="img-fluid">
+          <div class="dev_name">
+            <h2>tony stark</h2>
+            <p>Interface Designer</p>
           </div>
-          <!-- single item -->
-          <div class="col-lg-3 col-md-3 single_item">
-            <img src="images/d_img4.jpg" class="img-fluid">
-            <div class="dev_name">
-              <h2>john smith</h2>
-              <p>Web Designer</p>
-            </div>
-            <div class="btn-group-vertical p_social_icon" role="group" aria-label="Vertical button group">
-              <button type="button" class="btn per_c_btn"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></button>
-              <button type="button" class="btn per_c_btn"><a href="#"><i class="fa-brands fa-twitter"></i></a></button>
-              <button type="button" class="btn per_c_btn"><a href="#"><i class="fa-brands fa-dribbble"></i></a></button>
-              <button type="button" class="btn per_c_btn"><a href="#"><i class="fa-brands fa-instagram"></i></a></button>
-              
+          <div class="btn-group-vertical p_social_icon" role="group" aria-label="Vertical button group">
+            <button type="button" class="btn per_c_btn"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></button>
+            <button type="button" class="btn per_c_btn"><a href="#"><i class="fa-brands fa-twitter"></i></a></button>
+            <button type="button" class="btn per_c_btn"><a href="#"><i class="fa-brands fa-dribbble"></i></a></button>
+            <button type="button" class="btn per_c_btn"><a href="#"><i class="fa-brands fa-instagram"></i></a></button>         
+          </div>
+        </div>
+        <!-- single item -->
+        <div class="col-lg-3 col-md-3 single_item">
+          <img src="images/d_img3.jpg" class="img-fluid">
+          <div class="dev_name">
+            <h2>robert carlos</h2>
+            <p>Web Developer</p>
+          </div>
+          <div class="btn-group-vertical p_social_icon" role="group" aria-label="Vertical button group">
+            <button type="button" class="btn per_c_btn"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></button>
+            <button type="button" class="btn per_c_btn"><a href="#"><i class="fa-brands fa-twitter"></i></a></button>
+            <button type="button" class="btn per_c_btn"><a href="#"><i class="fa-brands fa-dribbble"></i></a></button>
+            <button type="button" class="btn per_c_btn"><a href="#"><i class="fa-brands fa-instagram"></i></a></button>         
+          </div>
+        </div>
+        <!-- single item -->
+        <div class="col-lg-3 col-md-3 single_item">
+          <img src="images/d_img4.jpg" class="img-fluid">
+          <div class="dev_name">
+            <h2>john smith</h2>
+            <p>Web Designer</p>
+          </div>
+          <div class="btn-group-vertical p_social_icon" role="group" aria-label="Vertical button group">
+            <button type="button" class="btn per_c_btn"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></button>
+            <button type="button" class="btn per_c_btn"><a href="#"><i class="fa-brands fa-twitter"></i></a></button>
+            <button type="button" class="btn per_c_btn"><a href="#"><i class="fa-brands fa-dribbble"></i></a></button>
+            <button type="button" class="btn per_c_btn"><a href="#"><i class="fa-brands fa-instagram"></i></a></button>   
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <!-- developer details end-->
+  <!-- developer details -->
 
-
-  <!-- pricing start -->
+  <!-- best pricing start -->
   <section class="pricing">
     <div class="container">
       <!-- 1st row -->
@@ -527,16 +511,17 @@
           <div class="c_rec"></div>
           <h1 class="c_h1">best pricing</h1>
         </div>
-        <!-- 2nd row -->
-        <div class="row">
-          <!-- single item -->
-          <div class="col-lg-3 col-md-6 col-sm-6 ">
-            <div class="pri_single">
-              <div class="pri_title">
-               <h3>basic</h3>
-             </div>
-             <h2>$29<span>/per month</span></h2>
-             <ul>
+      </div>
+      <!-- 2nd row -->
+      <div class="row">
+        <!-- single item -->
+        <div class="col-lg-3 col-md-6 col-sm-6 ">
+          <div class="pri_single">
+            <div class="pri_title">
+              <h3>basic</h3>
+            </div>
+            <h2>$29<span>/per month</span></h2>
+            <ul>
               <li>-  1Th Storage</li>
               <li>-  Unlimited Members</li>
               <li>-  50 Project</li>
@@ -546,210 +531,231 @@
             <button class="pri_button">
               <a href="#">sign up <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
             </button>
-          </div>
+          </div>    
         </div>
         <!-- single item -->
         <div class="col-lg-3 col-md-6 col-sm-6 ">
           <div class="pri_single">
             <div class="pri_title">
-             <h3>standard</h3>
-           </div>
-           <h2>$59<span>/per month</span></h2>
-           <ul>
-            <li>-  1Th Storage</li>
-            <li>-  Unlimited Members</li>
-            <li>-  50 Project</li>
-            <li>-  70GB Bandwidth</li>
-            <li>-  24/7 Customer Support</li>
-          </ul>
-          <button class="pri_button">
-            <a href="#">sign up <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
-          </button>
-        </div>
-      </div>
-      <!-- single item -->
-      <div class="col-lg-3 col-md-6 col-sm-6 ">
-        <div class="pri_single">
-          <div class="pri_title">
-           <h3>enterprise</h3>
-         </div>
-         <h2>$89<span>/per month</span></h2>
-         <ul>
-          <li>-  1Th Storage</li>
-          <li>-  Unlimited Members</li>
-          <li>-  50 Project</li>
-          <li>-  70GB Bandwidth</li>
-          <li>-  24/7 Customer Support</li>
-        </ul>
-        <button class="pri_button">
-          <a href="#">sign up <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
-        </button>
-      </div>
-    </div>
-    <!-- single item -->
-    <div class="col-lg-3 col-md-6 col-sm-6 ">
-      <div class="pri_single">
-        <div class="pri_title">
-         <h3>platinum</h3>
-       </div>
-       <h2>$199<span>/per month</span></h2>
-       <ul>
-        <li>-  1Th Storage</li>
-        <li>-  Unlimited Members</li>
-        <li>-  50 Project</li>
-        <li>-  70GB Bandwidth</li>
-        <li>-  24/7 Customer Support</li>
-      </ul>
-      <button class="pri_button">
-        <a href="#">sign up <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
-      </button>
-    </div>
-  </div>
-  </div>
-  <!-- 3rd row -->
-  <!-- template start  -->
-  <section class="template ">
-        <div class="container">
-            <div class="row align-items-center justify-content-between">
-                <div class="col-lg-5 col-sm-7 text-center text-md-start">
-                    <div>
-                        <p class="mb-0  text-uppercase">Nipro | Responsive HTML Template</p>
-                    </div>
-                </div>
-                <div class="text-center text-md-end col-lg-3 col-sm-5">
-                    <a href="#" class="btn btn_c btn_template text-uppercase">Buy Now<i
-                            class="fa-solid fa-right-long ps-3"></i></a>
-                </div>
+              <h3>standard</h3>
             </div>
+            <h2>$59<span>/per month</span></h2>
+            <ul>
+              <li>-  1Th Storage</li>
+              <li>-  Unlimited Members</li>
+              <li>-  50 Project</li>
+              <li>-  70GB Bandwidth</li>
+              <li>-  24/7 Customer Support</li>
+            </ul>
+            <button class="pri_button">
+              <a href="#">sign up <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
+            </button>
+          </div>  
         </div>
-  </section>
-  <!-- template end  -->
-  <div class="row">
-    <div class="col-lg-12">
-      <div class="profile">
-        <div class="profile_img col-lg-3">
-          <img src="images/profile.jpg" class="img-fluid" alt="Nipro Agency">
+        <!-- single item -->
+        <div class="col-lg-3 col-md-6 col-sm-6 ">
+          <div class="pri_single">
+            <div class="pri_title">
+              <h3>enterprise</h3>
+            </div>
+            <h2>$89<span>/per month</span></h2>
+            <ul>
+              <li>-  1Th Storage</li>
+              <li>-  Unlimited Members</li>
+              <li>-  50 Project</li>
+              <li>-  70GB Bandwidth</li>
+              <li>-  24/7 Customer Support</li>
+            </ul>
+            <button class="pri_button">
+              <a href="#">sign up <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
+            </button>
+          </div>  
         </div>
-        <div class="profile_text col-lg-9">
-          <h3>john-smith</h3>
-          <h4>Co-Founder & CEO</h4>
-          <h5>DeviserWeb</h5>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five</p>
-          <p>Lcenturies, but also the leap into electronic typesetting, remaining essentially  like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <!-- single item -->
+        <div class="col-lg-3 col-md-6 col-sm-6 ">
+          <div class="pri_single">
+            <div class="pri_title">
+              <h3>platinum</h3>
+            </div>
+            <h2>$199<span>/per month</span></h2>
+            <ul>
+              <li>-  1Th Storage</li>
+              <li>-  Unlimited Members</li>
+              <li>-  50 Project</li>
+              <li>-  70GB Bandwidth</li>
+              <li>-  24/7 Customer Support</li>
+            </ul>
+            <button class="pri_button">
+              <a href="#">sign up <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
+            </button>
+          </div>  
         </div>
       </div>
     </div>
-  </div>
-  </div>
-  </div>
   </section>
-  <!-- pricing end -->
+  <!-- best pricing end -->
 
+  <!-- action start -->
+  <section class="action">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg ac_nav">
+        <div class="container-fluid p-0 ">
+          <!-- item start -->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link p-0 c_text" href="#">Nipro  |  Responsive HTML Template</a>
+            </li>
+          </ul>
+          <!-- item start -->
+          <form class="d-flex">
+            <button class="pri_button ac_button">
+              <a href="#">Buy Now <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
+            </button>
+          </form>
+        </div>
+      </nav>
+    </div>
+  </section>
+  <!-- action end -->
 
-  <!-- contact section start -->
+  <!-- profile start -->
+  <section class="Testimonial">
+    <div class="container">
+      <!-- 1st row -->
+      <div class="row c_row">
+        <!-- item one -->
+        <div class="col-lg-11">
+          <div class="profile">
+            <div class="profile_img col-lg-3">
+              <img src="images/profile.jpg" class="img-fluid" alt="Nipro Agency">
+            </div>
+            <div class="profile_text col-lg-8">
+              <h3>john-smith</h3>
+              <h4>Co-Founder & CEO</h4>
+              <h5>DeviserWeb</h5>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five</p>
+              <p>Lcenturies, but also the leap into electronic typesetting, remaining essentially  like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+          </div>
+        </div>
+        <!-- item two -->
+        <div class="col-lg-1 c_bt">
+          <div class="btn_s v_btn_s m-0">
+            <button class="btn_p v_btn_p" data-bs-target="#c_slider" data-bs-slide="prev" type="button">Prev</button>
+            <span>|</span>
+            <span style="font-size: 20px; color: #333333;">|</span>
+            <span>|</span>
+            <button class="btn_n v_btn_n" data-bs-target="#c_slider" data-bs-slide="next" type="button">Next</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- profile end -->
 
-  <!--profile start-->
+  <!-- contact us start -->
   <section class="contact">
     <div class="container">
       <div class="c_form text-center">
         <h2 class="contact_title m-auto">contact us</h2>
-        <form>
-          <div class="row justify-content-center">
-            <div class="col-lg-4">
-              <input type="text"placeholder="First Name"class="w-100 c_input"/>
+          <form>
+            <div class="row justify-content-center">
+              <div class="col-lg-4">
+                <input type="text"placeholder="First Name"class="w-100 c_input"/>
+              </div>
+              <div class="col-lg-4">
+                <input type="text" placeholder="Last Name" class="w-100 c_input" />
+              </div>
             </div>
-            <div class="col-lg-4">
-              <input type="text" placeholder="Last Name" class="w-100 c_input" />
-            </div>
-          </div>
 
-          <div class="row justify-content-center">
-            <div class="col-lg-8">
-              <input type="email"placeholder="Your Email"class="w-100 c_input"/>
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <input type="email"placeholder="Your Email"class="w-100 c_input"/>
+              </div>
             </div>
-          </div>
-          <div class="row justify-content-center">
-            <div class="col-lg-8">
-              <textarea name="message"id="message"cols="30"rows="4" placeholder="Your Message..."class="w-100 c_input"></textarea>
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <textarea name="message"id="message"cols="30"rows="4" placeholder="Your Message..."class="w-100 c_input"></textarea>
+              </div>
             </div>
-          </div>
-          <a href="#" class="btn ">send now<i class="fa-solid fa-arrow-right-long arrow_icon a_icon"></i></a>
-        </form>
+          </form>
+          <button class="pri_button ac_button">
+          <a href="#">Send Now <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
+          </button>
       </div>
     </div>
   </section>
-  <!--profile end-->
+  <!-- contact us end -->
 
-  <!--footer start-->
+  <!-- footer start -->
   <footer>
-    <div class="container">
-      <div class="f_content text-center">
-        <!-- 1st row  -->
-        <div class="row justify-content-center">
-          <div class="col-lg-4">
-            <div class="footer-title text-center">
-              <div class="c_rec"></div>
-              <h1 class="c_h1">Nipro Agency</h1>
-              <p>Lorem Ipsum is simply dummy text of lol he the printing and typesetting industry. Lorem Ipsum Has been the koi jabi mama</p>
-            </div>
+  <div class="container">
+    <div class="f_content text-center">
+      <!-- 1st row  -->
+      <div class="row justify-content-center">
+        <div class="col-lg-4">
+          <div class="footer-title text-center">
+            <div class="c_rec"></div>
+            <h1 class="c_h1">Nipro Agency</h1>
+            <p>Lorem Ipsum is simply dummy text of lol he the printing and typesetting industry. Lorem Ipsum Has been the koi jabi mama</p>
           </div>
         </div>
-        <!-- 1st row  -->
-        <div class="row justify-content-center">
-          
-        </div>
-        <div class="socials">
-          <ul class="list-inline">
-            <li class="list-inline-item mt-4">
-              <a href="#"><i class="fa-brands fa-facebook-f social_icon fac_icon"></i></a>
-            </li>
-            <li class="list-inline-item mt-4"><a href="#">
-              <i class="fa-brands fa-dribbble social_icon"></i>
-            </a>
-            </li>
-            <li class="list-inline-item mt-4">
-              <a href="#">
-                <i class="fa-brands fa-behance social_icon"></i>
-              </a>
-            </li>
-            <li class="list-inline-item mt-4">
-              <a href="#">
-                <i class="fa-brands fa-twitter social_icon"></i>
-              </a>
-            </li>
-            <li class="list-inline-item mt-4">
-              <a href="#">
-                <i class="fa-brands fa-linkedin-in social_icon"></i>
-              </a>
-            </li>
-            <li class="list-inline-item mt-4">
-              <a href="#">
-               <i class="fa-brands fa-google-plus-g social_icon"></i>
-            </a>
-          </li>
-        </ul>
       </div>
-    </div>
-  </div>
-  <div class="line"></div>
-  <div class="container">
-    <div class="f_bottom d-flex flex-md-row flex-column align-items-center justify-content-between"><small class="copyright mb-md-0 mb-3">&copy;All Reserved By NIPRO AGENCY | By: Tanzer Ahammad</small>
-
-      <ul class="list-inline links">
-        <li class="list-inline-item"><a href="#">support</a></li>
-        <li class="list-inline-item"><a href="#">sitemap</a></li>
-        <li class="list-inline-item"><a href="#">contact us</a></li>
-        <li class="list-inline-item"><a href="#">terms of use</a></li>
+      <!-- 1st row  -->
+      <div class="row justify-content-center">
+        
+      </div>
+      <div class="socials">
+        <ul class="list-inline">
+          <li class="list-inline-item mt-4">
+            <a href="#"><i class="fa-brands fa-facebook-f social_icon fac_icon"></i></a>
+          </li>
+          <li class="list-inline-item mt-4"><a href="#">
+            <i class="fa-brands fa-dribbble social_icon"></i>
+          </a>
+        </li>
+        <li class="list-inline-item mt-4">
+          <a href="#">
+            <i class="fa-brands fa-behance social_icon"></i>
+          </a>
+        </li>
+        <li class="list-inline-item mt-4">
+          <a href="#">
+            <i class="fa-brands fa-twitter social_icon"></i>
+          </a>
+        </li>
+        <li class="list-inline-item mt-4">
+          <a href="#">
+            <i class="fa-brands fa-linkedin-in social_icon"></i>
+          </a>
+        </li>
+        <li class="list-inline-item mt-4">
+          <a href="#">
+            <i class="fa-brands fa-google-plus-g social_icon"></i>
+          </a>
+        </li>
       </ul>
     </div>
   </div>
-  </footer>
-  <!--footer end-->
+</div>
+<div class="line"></div>
+<div class="container">
+  <div class="f_bottom d-flex flex-md-row flex-column align-items-center justify-content-between"><small class="copyright mb-md-0 mb-3">&copy;All Reserved By NIPRO AGENCY | By: Tanzer Ahammad</small>
 
-  <!-- contact section end -->
+    <ul class="list-inline links">
+      <li class="list-inline-item"><a href="#">support</a></li>
+      <li class="list-inline-item"><a href="#">sitemap</a></li>
+      <li class="list-inline-item"><a href="#">contact us</a></li>
+      <li class="list-inline-item"><a href="#">terms of use</a></li>
+    </ul>
+  </div>
+</div>
+</footer>
+  <!-- footer end -->
 
-  <!-- script link -->
-  <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
-  <script type="text/javascript" src="js/script.js"></script>
+
+  <!-- js links -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
